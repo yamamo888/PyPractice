@@ -9,12 +9,12 @@ import glob
 import os
 import pdb
 
-oldpath = os.path.join("features","nankaipickles","*.pkl")
+oldpath = os.path.join("features","test","b*")
 files = glob.glob(oldpath)
-
+cnt = 2
 # change file name
 for file in files:
     dirname = os.path.dirname(file)
-    filename = os.path.basename(file)
-    pdb.set_trace()
-    #os.rename(file, "")
+    filename = os.path.basename(file)[:-1]
+    os.rename(file, filename)
+    cnt += 1

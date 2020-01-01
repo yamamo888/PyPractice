@@ -7,4 +7,9 @@
 <br>
 
 ## detectFaces
-- 顔検出 with openCV 
+- 顔検出 with openCV
+
+<br>
+
+## Diagram_MCA
+- 階層的クラスタリングとMCAモデル

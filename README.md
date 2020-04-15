@@ -13,3 +13,8 @@
 
 ## Diagram_MCA
 - 階層的クラスタリングとMCAモデル
+
+<br>
+
+## poisson
+- ポアソン分布描画
